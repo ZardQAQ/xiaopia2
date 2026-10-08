@@ -2,6 +2,8 @@
 
 基于 Three.js 和 Verlet 物理的浏览器交互演示。图形学概念被印在一张可以拖拽、飘动、剪开的 3D 小票上。
 
+线上预览：[http://paper.zard.loc.cc/](http://paper.zard.loc.cc/)
+
 ## 运行
 
 ```bash
