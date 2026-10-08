@@ -1,0 +1,10 @@
+# 本地笔记、截图、压缩包和发帖草稿不进入仓库
+.trae/
+*.zip
+image.png
+image-*.png
+flowchart.html
+功能流程图.md
+功能流程图.png
+大赛发帖模板.md
+复赛发帖模板.md

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="g1" cx="25%" cy="15%" r="70%">
+      <stop offset="0%" stop-color="#FFF0CC" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFF0CC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="80%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#EFCFA0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#EFCFA0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="60%" cy="95%" r="65%">
+      <stop offset="0%" stop-color="#B89060" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#B89060" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#644019" stop-opacity="0.15"/>
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="5" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.7 0"/>
+    </filter>
+    <pattern id="cross" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 24 20 L 24 28 M 20 24 L 28 24" stroke="#A07840" stroke-width="0.6" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="#E4D5B8"/>
+  <rect width="1920" height="1080" fill="url(#cross)"/>
+  <rect width="1920" height="1080" fill="url(#g1)"/>
+  <rect width="1920" height="1080" fill="url(#g2)"/>
+  <rect width="1920" height="1080" fill="url(#g3)"/>
+  <rect width="1920" height="1080" filter="url(#noise)" opacity="0.07"/>
+  <rect width="1920" height="1080" fill="url(#vig)"/>
+</svg>
